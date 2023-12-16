@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+}
+main {
+    max-width: 640px;
+    margin: 50px auto 0 auto;
+    border: 1px solid #000;
+    padding: 10px;
+}
+    h1 {
+        font-size: 1.8rem;
+        margin: 0;
+    }
+    h2 {
+        font-size: 1rem;
+        font-weight: normal;
+        margin-top: 0;
+        color: #606770
+    }
+    form {
+        border-top: 1px solid #ccc;
+        padding-top: 15px;
+    }
+.double-input input {
+    width: 46.7%;
+}
+.large-input input {
+    width: 97%;
+}
+.double-input input, .large-input input {
+    padding: 6px 8px;
+    background-color: #f5f6f7;
+    border: 1px solid #ccd0d5;
+    border-radius: 5px;
+    margin-bottom: 6px;
+}
+
+legend {
+    font-size: 0.8rem;
+}
+
+select {
+    width: 32%;
+    margin-right: 5px;
+    padding: 5px 6px;
+    background-color: #fff;
+    border: 1px solid #ccd0d5;
+    border-radius: 5px;
+}
+.form-submit {
+    margin: 20px;
+    text-align: center;
+}
+.form-submit button {
+    background-color: #060;
+    color: #FFF;
+    padding: 8px 30px;
+    border: none;
+    border-radius: 5px;
+}

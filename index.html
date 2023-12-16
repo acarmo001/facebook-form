@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="utf-8">
+        <title>Formulário de registo</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="app.js" defer></script>
+    </head>
+    <body>
+        <main>
+            <h1>Regista-te</h1>
+            <h2>É rápido e fácil</h2>
+            <form methods="post" action="index.html">
+                <div class="double-input">
+                    <input type="text" name="first_name" placeholder="Nome próprio" aria-label="Nome próprio" required>
+                    <input type="text" name="last-name" placeholder="Apelido" aria-label="Apelido" required>
+                </div>
+                <div class="large-input">
+                    <input type="text" name="email_phone" placeholder="Número de telefone ou email" aria-label="Número de telefone ou email" required>
+                </div>
+                <div class="large-input">
+                    <input type="password" name="password" placeholder="Palavra-passe nova" aria-label="Palavra-passe nova" required>
+                </div>
+                <div class="birth-date">
+                    <fieldset>
+                        <legend>Data de nascimento</legend>
+                        <select name="birth_day" arial-label="Dia"></select>
+                        <select name="birth_month" arial-label="Mês">
+                            <option value="1">Jan</option>
+                            <option value="2">Fev</option>
+                            <option value="3">Mar</option>
+                            <option value="4">Abr</option>
+                            <option value="5">Mai</option>
+                            <option value="6">Jun</option>
+                            <option value="7">Jul</option>
+                            <option value="8">Ago</option>
+                            <option value="9">Set</option>
+                            <option value="10">Out</option>
+                            <option value="11">Nov</option>
+                            <option value="12">Dez</option>
+                        </select>
+                        <select name="birth_year" arial-label="Ano"></select>
+                    </fieldset>
+                </div>
+                <div class="form-submit">
+                    <button type="submit" name="send">Regista-te</button>
+                </div>
+            </form>
+        </main>
+    </body>
+</html>
